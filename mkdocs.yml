@@ -1,0 +1,6 @@
+site_name: Arcana
+nav:
+  - Home: index.md
+  - Descripción: descripcion.md
+  - About: about.md
+theme: readthedocs
