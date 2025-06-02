@@ -1,6 +1,7 @@
-# MkDocs
+# MkDocs demo
 
-Avances realizados para la reunión del 27/05/2025
+La presente es una demostración de las características y utilidades de MkDocs.
+
 
 ## Commands
 
@@ -16,3 +17,4 @@ Avances realizados para la reunión del 27/05/2025
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
     
+Avances realizados para la reunión del 03/06/2025

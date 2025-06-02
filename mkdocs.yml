@@ -1,6 +1,29 @@
-site_name: Arcana
+site_name: MkDocs test
+repo_url: https://github.com/VicenteAninat/MkDocs_test.git
 nav:
-  - Home: index.md
+  - Inicio: index.md
+  - Cómo iniciar:
+    - Instalación: como-iniciar/instalacion.md
   - Descripción: descripcion.md
-  - About: about.md
-theme: readthedocs
+theme:
+  name: material
+  features:
+    - navigation.tabs       # Pestañas superiores
+    - navigation.instant    # Navegación instantánea
+    - header.autohide       # Barra que se oculta al hacer scroll
+    - content.tabs          # Pestañas dentro del contenido (como en el ejemplo anterior)
+  
+  palette:
+    - scheme: default       # Modo claro
+      primary: indigo       # Color principal
+      accent: blue          # Color de acento
+    - scheme: slate         # Modo oscuro
+      primary: deep purple  
+      accent: lime
+  font:
+    text: Roboto  # Fuente principal
+    code: Fira Code  # Fuente para código
+  palette:
+    - scheme: default
+      primary: teal  # Cambia el color principal
+  logo: img/favicon.ico  # Logo de la página
