@@ -1,10 +1,11 @@
 site_name: MkDocs test
 repo_url: https://github.com/VicenteAninat/MkDocs_test.git
+
 nav:
   - Inicio: index.md
-  - Cómo iniciar:
-    - Instalación: como-iniciar/instalacion.md
-  - Descripción: descripcion.md
+  - Primeros pasos:
+      - Creando un proyecto: primeros-pasos/creando-proyecto.md
+  - ¿Qué se puede hacer con MkDocs?: pruebas-mkdocs.md
 theme:
   name: material
   features:
@@ -26,4 +27,11 @@ theme:
   palette:
     - scheme: default
       primary: teal  # Cambia el color principal
-  logo: img/favicon.ico  # Logo de la página
+  favicon: img/favicon.ico
+  logo: img/favicon.ico
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - js/table-responsive.js
